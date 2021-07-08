@@ -1,0 +1,26 @@
+
+/*This Media Query use for Mobile View*/
+@media screen and (max-width: 767px){
+	.banner{
+		background-size: 200%;
+		background-position: top center;
+    background-repeat: no-repeat;
+	}
+	.banner h1{ font-size: 40px; }
+	
+	.about-box{
+		/* margin: 15px 0; */
+	}
+	.chat_box.active{
+		display: block;
+		transform: scaleY(1);
+		margin-right: -22px;
+	}
+    .question-box{
+		top: 275px;
+	}
+}
+
+
+
+
